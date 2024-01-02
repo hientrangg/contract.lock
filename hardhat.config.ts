@@ -33,10 +33,7 @@ const config: HardhatUserConfig = {
   },
   sourcify: {
     enabled: true,
-    // Optional: specify a different Sourcify server
-    // apiUrl: "https://sourcify.dev/server",
     apiUrl: "https://verify.miraiscan.io/",
-    // Optional: specify a different Sourcify repository
     browserUrl: "https://repo.sourcify.dev",
   },
   etherscan: {
